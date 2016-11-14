@@ -40,6 +40,8 @@ body {
   width: 46px;
   z-index: 20;
   position: absolute;
+  top: 18%;
+  left: 42%;
 }
 
 .robot-head-right,
@@ -48,4 +50,20 @@ body {
   z-index: 30;
   position: absolute;
   top: 5px;
+}
+
+.robot-head-right {
+  right: 11%;
+}
+
+.robot-head-left {
+  left: 11%
+}
+
+.robot:hover > .robot-head-right {
+  transform: translateX(25%);
+}
+
+.robot:hover > .robot-head-left {
+  transform: translateX(-25%);
 }
